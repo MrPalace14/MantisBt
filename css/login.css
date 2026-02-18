@@ -60,3 +60,8 @@ div.captcha-image {
 .captcha_loading_image {
 	animation: rotating 2s linear infinite;
 }
+/* change login color// */
+/* Hide footer and "Powered by MantisBT" */
+.footer, #powered-by {
+    display: none !important;
+}

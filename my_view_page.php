@@ -171,3 +171,4 @@ foreach( $t_boxes as $t_box_title => $t_box_display ) {
 </div>
 <?php }
 layout_page_end();
+

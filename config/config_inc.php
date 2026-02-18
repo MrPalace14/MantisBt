@@ -1,5 +1,5 @@
 <?php
-$g_hostname               = '192.168.1.230';
+$g_hostname               = 'localhost';
 $g_db_type                = 'mysqli';
 $g_database_name          = 'mantis';
 $g_db_username            = 'root';
@@ -9,7 +9,7 @@ $g_default_timezone       = 'Europe/Berlin';
 
 $g_crypto_master_salt     = 'rzXu8ufvW1/wFnSf4kixTdR3gSL1JsRyFI+dSIMFxqs=';
 
-$g_path                   = 'http://192.168.1.230/mantis/';
+$g_path                   = 'http://localhost/mantis/';
 
 # =========================
 # Email Configuration (OVH)
@@ -29,7 +29,7 @@ $g_webmaster_email        = 'njie.micheline@iwomitechnologies.com';
 $g_administrator_email    = 'njie.micheline@iwomitechnologies.com';
 
 # Sender Name
-$g_from_name              = 'Mantis Bug Tracker';
+$g_from_name              = 'IWOMI SUPPORT SOFTWARE';
 
 # Enable Email System
 $g_enable_email_notification = ON;
@@ -39,6 +39,8 @@ $g_validate_email            = ON;
 
 # Optional debugging
 $g_email_notifications_verbose = OFF;
+//FOOTER
+
 
 # Permissions
 $g_permission_enable_project_create = ON;

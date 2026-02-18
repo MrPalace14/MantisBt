@@ -38,7 +38,7 @@
 $g_hostname      = 'localhost';
 $g_db_username   = 'mantisdbuser';
 $g_db_password   = '';
-$g_database_name = 'bugtracker';
+$g_database_name = 'mantis';
 $g_db_type       = 'mysqli';
 
 # --- Security ---

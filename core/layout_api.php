@@ -392,12 +392,12 @@ function layout_navbar() {
 	echo '<span class="icon-bar"></span>';
 	echo '</button>';
 
-	echo '<div class="navbar-header">';
-	echo '<a href="' . $t_short_path . $t_logo_url . '" class="navbar-brand">';
-	echo '<span class="smaller-75"> ';
-	echo string_display_line( config_get('window_title') );
-	echo ' </span>';
-	echo '</a>';
+	// echo '<div class="navbar-header">';
+	// echo '<a href="' . $t_short_path . $t_logo_url . '" class="navbar-brand">';
+	// echo '<span class="smaller-75"> ';
+	// echo string_display_line( config_get('window_title') );
+	// echo ' </span>';
+	// echo '</a>';
 
 	$t_toggle_class = (OFF == config_get('show_avatar') ? 'navbar-toggle' : 'navbar-toggle-img');
 	echo '<button type="button" class="navbar-toggle ' . $t_toggle_class . ' collapsed pull-right hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target=".navbar-buttons,.navbar-menu">';
@@ -1143,8 +1143,8 @@ function layout_footer() {
 	}
 	echo '<div class="col-md-6 col-xs-12 no-padding">' . "\n";
 	echo '<address>' . "\n";
-	echo '<strong>Powered by <a href="https://www.mantisbt.org" title="bug tracking software">MantisBT ' . $t_version_suffix . '</a></strong> <br>' . "\n";
-	echo "<small>Copyright &copy;$t_copyright_years MantisBT Team</small>" . '<br>';
+	echo '<strong>Powered by <a href="https://www.iwomitechnoligies.com" title="fintech">IWOMI ' . $t_version_suffix . '</a></strong> <br>' . "\n";
+	// echo "<small>Copyright &copy;$t_copyright_years MantisBT Team</small>" . '<br>';
 
 	# Show optional user-specified custom copyright statement
 	$t_copyright_statement = config_get_global( 'copyright_statement' );
@@ -1153,10 +1153,10 @@ function layout_footer() {
 	}
 
 	# Show contact information
-	if( !is_page_name( 'login_page' ) ) {
-		$t_webmaster_contact_information = sprintf( lang_get( 'webmaster_contact_information' ), string_html_specialchars( config_get_global( 'webmaster_email' ) ) );
-		echo '<small>' . $t_webmaster_contact_information . '</small>' . '<br>' . "\n";
-	}
+	// if( !is_page_name( 'login_page' ) ) {
+	// 	$t_webmaster_contact_information = sprintf( lang_get( 'webmaster_contact_information' ), string_html_specialchars( config_get_global( 'webmaster_email' ) ) );
+	// 	echo '<small>' . $t_webmaster_contact_information . '</small>' . '<br>' . "\n";
+	// }
 
 	echo '</address>' . "\n";
 	echo '</div>' . "\n";
